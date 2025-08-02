@@ -1,0 +1,47 @@
+title{
+	color: blue;
+	font-family: Trebuchet MS, sans-serif;
+}
+
+
+h1{
+	font-family: Trebuchet MS, sans-serif;
+	color: red;
+}
+
+
+p{
+	font-family: Geneva, sans-serif;
+}
+
+
+p1{
+	font-family: Geneva, sans-serif;
+	font-style: bold;
+}
+
+
+p2{
+	font-family: Geneva, sans-serif;
+	color:grey;
+}
+
+
+hr {
+	display: block;
+	height: 2px;
+	border: 0;
+	border-top: 1px solid red;
+	margin: 1em 0;
+	padding: 0;
+}
+
+nav {
+	width: 90px;
+	border: solid red 2px;
+}
+
+footer {
+	background:gold;
+	background-size: cover;
+}
