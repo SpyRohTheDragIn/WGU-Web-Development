@@ -5,7 +5,16 @@
 		<meta charset="UTF-8">
 		<link rel="icon" href="melih.jpg">
 		<title> Melih Yuksel resume </title>
+		<div><p id="date"></p></div>
 	</header>
+<script>
+  const today = new Date();
+
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = today.toLocaleDateString(undefined, options);
+
+  document.getElementById("date").textContent = formattedDate;
+</script>
 
 	<hr>
 	<main>
@@ -128,9 +137,10 @@
 <footer>
 	<nav>
 		<ul>
-			<span><a class="nav-link" href="cover-letter.html"  target="_blank" style="display:block;height:100%;width:100%">Cover Letter</a></div></span>
-			<span><a class="nav-link" href="career-goals.html"  target="_blank" style="display:block;height:100%;width:100%">Career Goals</a></div></span>
+		<span><a class="nav-link" href="cover-letter.html"  target="_blank" style="display:block;height:100%;width:100%">Cover Letter</a></div></span>
+		<span><a class="nav-link" href="career-goals.html"  target="_blank" style="display:block;height:100%;width:100%">Career Goals</a></div></span>
 		</ul>
 	</nav>
 </footer>
+
 
