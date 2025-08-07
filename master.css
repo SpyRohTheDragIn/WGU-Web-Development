@@ -1,3 +1,6 @@
+* {
+font-family: sans-serif;
+}
 title{
 	color: blue;
 	font-family: Trebuchet MS, sans-serif;
@@ -44,4 +47,13 @@ nav {
 footer {
 	background:gold;
 	background-size: cover;
+
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+ul {
+  list-style-type: square;
 }
